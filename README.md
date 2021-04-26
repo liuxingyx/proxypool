@@ -27,7 +27,7 @@
 
 ## 安装
 
-以下五选一。
+以下四选一。
 
 ### 1. 使用Heroku
 
@@ -44,13 +44,7 @@
 > 因为爬虫程序需要持续运行，所以至少选择 $7/月 的配置
 > 免费配置长时间无人访问会被heroku强制停止
 
-### 2. 使用[fly.io](https://fly.io)
-
-> 注册fly.io需要绑定银行卡，支持银联借记卡。同时使用fly.io主要通过命令行工具flyctl，详情到[fly.io](https://fly.io)官网了解。
-
-下载仓库源代码，修改 `fly.toml` 中的app与domain。在终端使用 `flyctl deploy` 部署即可。
-
-### 3. 从源码编译
+### 2. 从源码编译
 
 需要安装Golang
 
@@ -62,12 +56,6 @@ $ go get -u -v github.com/liuxingyx/proxypool
 
 ```shell
 $ go run main.go -c ./config/config.yaml
-```
-
-编译
-
-```shell
-$ make
 ```
 
 ### 4. 下载预编译程序
@@ -87,8 +75,6 @@ $ docker run -ti -d --name proxypool -p 80:80 docker.pkg.github.com/liuxingyx/pr
 ```
 
 使用 `-p` 参数映射配置文件里的端口  
-使用 `-v` 参数指定配置文件夹位置（配置文件要自行下载放到目录,方便修改）  
-使用 `-c` 参数指定配置文件路径，支持http链接
 
 ## 使用
 

@@ -18,4 +18,6 @@ COPY ./assets /proxypool-src/assets
 COPY ./config/config.yaml /proxypool-src/config.yaml
 COPY ./config/source.yaml /proxypool-src/source.yaml
 COPY --from=builder /proxypool /proxypool-src/
-ENTRYPOINT ["/proxypool-src/proxypool"]
+#ENTRYPOINT ["/proxypool-src/proxypool"]
+ENTRYPOINT ["/proxypool-src/proxypool","-c"]
+CMD ["/proxypool-src/config.yaml"]
