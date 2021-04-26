@@ -5,9 +5,6 @@
 <h5 align="center">自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重测试可用性后提供节点列表</h5>
 
 <p align="center">
-  <a href="https://github.com/liuxingyx/proxypool/actions">
-    <img src="https://img.shields.io/github/workflow/status/liuxingyx/proxypool/Go?style=flat-square" alt="Github Actions">
-  </a>
   <a href="https://goreportcard.com/report/github.com/liuxingyx/proxypool">
     <img src="https://goreportcard.com/badge/github.com/liuxingyx/proxypool?style=flat-square">
   </a>

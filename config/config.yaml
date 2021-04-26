@@ -5,7 +5,8 @@ port: 80               # default 12580
 # source list file
 source-files:
   # use local file
-  - ./config/source.yaml
+#  - ./source.yaml
+#  - ./config/source.yaml
   # use web file
 #  - https://raw.githubusercontent.com/liuxingyx/proxypool/master/config/source.yaml
   - https://raw.githubusercontent.com/money-fly/proxypool/master/config/source.yaml
