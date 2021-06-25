@@ -1,5 +1,5 @@
 # your domain
-domain: liuxing.cn1.utools.club
+domain: 0.0.0.0
 port: 80               # default 12580
 
 # source list file
