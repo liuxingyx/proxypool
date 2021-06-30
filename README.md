@@ -55,6 +55,7 @@ $ go get -u -v github.com/liuxingyx/proxypool
 运行
 
 ```shell
+$ ./go-bindata -nometadata -pkg deps -o internal/bindata/html/html.go assets/html/clash-config.yaml assets/html/clash-config-local.yaml assets/html/clash.html assets/html/index.html assets/html/shadowrocket.html assets/html/surge.conf assets/html/surge.html assets/static/index.js
 $ go run main.go -c ./config/config.yaml
 ```
 

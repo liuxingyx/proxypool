@@ -149,7 +149,7 @@ proxy-groups:
 proxy-providers:
   au:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=AU"
+    url: "http://0.0.0.0/clash/proxies?c=AU"
     path: localproviders/provider-au.yaml
     health-check:
       enable: true
@@ -157,7 +157,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   cn:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=CN,HK,TW"
+    url: "http://0.0.0.0/clash/proxies?c=CN,HK,TW"
     path: localproviders/provider-cn.yaml
     health-check:
       enable: true
@@ -165,7 +165,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   us:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=US"
+    url: "http://0.0.0.0/clash/proxies?c=US"
     path: localproviders/provider-us.yaml
     health-check:
       enable: true
@@ -173,7 +173,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ca:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=CA"
+    url: "http://0.0.0.0/clash/proxies?c=CA"
     path: localproviders/provider-ca.yaml
     health-check:
       enable: true
@@ -181,7 +181,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   jp:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=JP"
+    url: "http://0.0.0.0/clash/proxies?c=JP"
     path: localproviders/provider-jp.yaml
     health-check:
       enable: true
@@ -189,7 +189,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   sg:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=SG"
+    url: "http://0.0.0.0/clash/proxies?c=SG"
     path: localproviders/provider-sg.yaml
     health-check:
       enable: true
@@ -197,7 +197,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ru:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=RU"
+    url: "http://0.0.0.0/clash/proxies?c=RU"
     path: localproviders/provider-ru.yaml
     health-check:
       enable: true
@@ -205,7 +205,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ch:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=CH"
+    url: "http://0.0.0.0/clash/proxies?c=CH"
     path: localproviders/provider-ch.yaml
     health-check:
       enable: true
@@ -213,7 +213,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   de:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=DE"
+    url: "http://0.0.0.0/clash/proxies?c=DE"
     path: localproviders/provider-de.yaml
     health-check:
       enable: true
@@ -221,7 +221,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   fr:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=FR"
+    url: "http://0.0.0.0/clash/proxies?c=FR"
     path: localproviders/provider-fr.yaml
     health-check:
       enable: true
@@ -229,7 +229,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   gb:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=GB"
+    url: "http://0.0.0.0/clash/proxies?c=GB"
     path: localproviders/provider-gb.yaml
     health-check:
       enable: true
@@ -237,7 +237,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   nl:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?c=NL"
+    url: "http://0.0.0.0/clash/proxies?c=NL"
     path: localproviders/provider-nl.yaml
     health-check:
       enable: true
@@ -245,7 +245,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   others:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU"
+    url: "http://0.0.0.0/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU"
     path: localproviders/provider-others.yaml
     health-check:
       enable: true
@@ -253,7 +253,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   all:
     type: http
-    url: "http://{{ .domain }}:{{ .port }}/clash/proxies"
+    url: "http://0.0.0.0/clash/proxies"
     path: localproviders/provider.yaml
     health-check:
       enable: true
