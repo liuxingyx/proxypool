@@ -21,7 +21,7 @@
     <!-- Navigation -->
     <nav class="navbar is-primary pl-2 pr-2" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a href="https://{{ .domain }}" class="navbar-item">
+            <a href="http://{{ .domain }}" class="navbar-item">
                 <h1 class="title is-4">Free Proxies</h1>
             </a>
             <a role="button" class="navbar-burger burger is-white" aria-label="menu" aria-expanded="false" data-target="clients">
@@ -63,8 +63,8 @@
                             <p class="card-header-title"><span class="icon"><i class="metron-clash"></i></span>Clash</p>
                         </div>
                         <div class="card-content pt-0">
-                            <button data-copy="https://{{ .domain }}/clash/config" onclick="onCopyThis(this)" class="button is-small is-primary">配置文件</button>
-                            <a href="clash://install-config?url=https://{{ .domain }}/clash/config" class="button is-small is-info">一键导入</a>
+                            <button data-copy="http://{{ .domain }}/clash/config" onclick="onCopyThis(this)" class="button is-small is-primary">配置文件</button>
+                            <a href="clash://install-config?url=http://{{ .domain }}/clash/config" class="button is-small is-info">一键导入</a>
                         </div>
                         <footer class="card-footer"><a href="./clash" class="card-footer-item is-justify-content-flex-end has-text-right is-size-7">如何筛选等更多信息 >></a></footer>
                     </div>
@@ -75,8 +75,8 @@
                             <p class="card-header-title"><span class="icon"><i class="metron-shadowrocket"></i></span>ShadowRocket</p>
                         </div>
                         <div class="card-content pt-0">
-                            <button data-copy="https://{{ .domain }}/clash/proxies" onclick="onCopyThis(this)" class="button is-small is-primary">复制订阅</button>
-                            <button data-copy="https://{{ .domain }}/clash/proxies?c=HK,TW,US,JP,SG" onclick="onCopyThis(this)" class="button is-small is-warning">常用国家</button>
+                            <button data-copy="http://{{ .domain }}/clash/proxies" onclick="onCopyThis(this)" class="button is-small is-primary">复制订阅</button>
+                            <button data-copy="http://{{ .domain }}/clash/proxies?c=HK,TW,US,JP,SG" onclick="onCopyThis(this)" class="button is-small is-warning">常用国家</button>
                         </div>
                         <footer class="card-footer"><a href="./shadowrocket" class="card-footer-item is-justify-content-flex-end is-size-7">如何筛选等更多信息 >></a></footer>
                     </div>
@@ -87,8 +87,8 @@
                             <p class="card-header-title"><span class="icon"><i class="metron-surge"></i></span>Surge</p>
                         </div>
                         <div class="card-content pt-0">
-                            <button data-copy="https://{{ .domain }}/surge/config" onclick="onCopyThis(this)" class="button is-small is-primary">配置文件</button>
-                            <a href="surge3:///install-config?url=https://{{ .domain }}/surge/config" class="button is-small is-info">一键导入</a>
+                            <button data-copy="http://{{ .domain }}/surge/config" onclick="onCopyThis(this)" class="button is-small is-primary">配置文件</button>
+                            <a href="surge3:///install-config?url=http://{{ .domain }}/surge/config" class="button is-small is-info">一键导入</a>
                         </div>
                         <footer class="card-footer"><a href="./surge" class="card-footer-item is-justify-content-flex-end is-size-7">更多信息 >></a></footer>
                     </div>
@@ -115,27 +115,27 @@
                     <tbody>
                         <tr>
                             <th>ss</th>
-                            <td>https://{{ .domain }}/ss/sub</td>
+                            <td>http://{{ .domain }}/ss/sub</td>
                             <td class="has-text-right"><button class="button is-small is-primary" onclick="onCopy(this)">复制</button></td>
                         </tr>
                         <tr>
                             <th>ss-sip002</th>
-                            <td>https://{{ .domain }}/sip002/sub</td>
+                            <td>http://{{ .domain }}/sip002/sub</td>
                             <td class="has-text-right"><button class="button is-small is-primary" onclick="onCopy(this)">复制</button></td>
                         </tr>
                         <tr>
                             <th>ssr</th>
-                            <td>https://{{ .domain }}/ssr/sub</td>
+                            <td>http://{{ .domain }}/ssr/sub</td>
                             <td class="has-text-right"><button class="button is-small is-primary" onclick="onCopy(this)">复制</button></td>
                         </tr>
                         <tr>
                             <th>vmess</th>
-                            <td>https://{{ .domain }}/vmess/sub</td>
+                            <td>http://{{ .domain }}/vmess/sub</td>
                             <td class="has-text-right"><button class="button is-small is-primary" onclick="onCopy(this)">复制</button></td>
                         </tr>
                         <tr>
                             <th>trojan</th>
-                            <td>https://{{ .domain }}/trojan/sub</td>
+                            <td>http://{{ .domain }}/trojan/sub</td>
                             <td class="has-text-right"><button class="button is-small is-primary" onclick="onCopy(this)">复制</button></td>
                         </tr>
                     </tbody>
